@@ -9,12 +9,12 @@ console.log('#1. JavaScript homework example file')
  */
 var i = 0
 
-console.log('Префиксный инкремент:', ++i)
-console.log('Постфиксный инкремент:', i++)
-console.log('Значение i:', i)
-console.log('Префиксный декремент:', --i)
-console.log('Постфиксный декремент:', i--)
-console.log('Значение i:', i)
+console.log('Префіксний інкремент:', ++i)
+console.log('Постфіксний інкремент:', i++)
+console.log('Значення i:', i)
+console.log('Префіксний декремент:', --i)
+console.log('Постфіксний декремент:', i--)
+console.log('Значення i:', i)
 
 
 /*
@@ -66,9 +66,9 @@ console.log('myPow:', myPow)
  * #4
  *
  * Створіть об'єкт з ім'ям strObj.
- * Присвойте ключу str рядок тексту "Мама мыла раму, рама мыла маму", ключу length встановіть довжину цього рядка.
+ * Присвойте ключу str рядок тексту "Мама мила раму, рама мила маму", ключу length встановіть довжину цього рядка.
  */
-var strObj = { str: 'Мама мыла раму, рама мыла маму' }
+var strObj = { str: 'Мама мила раму, рама мила маму' }
 
 strObj.length = strObj.str.length
 console.log('strObj = ', strObj)
@@ -94,13 +94,13 @@ console.log('isRama:', isRama)
  *
  * Виконайте перейменування підрядка у рядку.
  * Як вихідний рядок використовуйте значення поля str об'єкта strObj (див.п.4), результат збережіть у змінній strReplace та відобразіть у консолі.
- * Вихідний рядок: 'Мама мыла раму, рама мыла маму'
- *      Результат: 'Мама моет раму, Рама держит маму'
+ * Вихідний рядок: 'Мама мила раму, рама мила маму'
+ *      Результат: 'Мама миє раму, Рама тримає маму'
  */
-var strReplace = strObj.str.replace('мыла', 'моет')
+var strReplace = strObj.str.replace('мила', 'миє')
 
 strReplace = strReplace.replace('рама', 'Рама')
-strReplace = strReplace.replace('мыла', 'держит')
+strReplace = strReplace.replace('мила', 'тримає')
 console.log('strReplace:', strReplace)
 
 
