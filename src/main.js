@@ -21,7 +21,7 @@ console.log('Значение i:', i)
  * #2
  *
  * Створіть нову змінну myTest та присвойте їй значення 20.
- * Виконайте присвоєння з операцією, використовуючи оператори: +=, –=, *=, /=, %=.
+ * Виконайте присвоєння з операцією, використовуючи оператори: +=, -=, *=, /=, %=.
  * Результати присвоюються в myTest, потім виводяться в консоль.
  * У розрахунках можна використовувати раніше оголошену змінну myNum та/або числа.
  */
@@ -58,8 +58,7 @@ console.log('myRound:', myRound)
 var myRandom = Math.random() * 10 // random number between 0..10 (excluding 10) → myRandom
 console.log('myRandom:', myRandom)
 
-// var myPow = Math.pow(3, 5) // 3 to the 5th power → myPow
-var myPow = 3 ** 5 // 3 to the 5th power → myPow
+var myPow = Math.pow(3, 5) // 3 to the 5th power → myPow
 console.log('myPow:', myPow)
 
 
@@ -78,7 +77,8 @@ console.log('strObj = ', strObj)
 /*
  * #5
  *
- * Перевірте наявність тексту 'рама' у полі str об'єкта strObj (див.п.4), результат збережіть у змінній isRamaPos та виведіть її у консоль.
+ * Перевірте наявність тексту 'рама' у полі str об'єкта strObj (див.п.4).
+ * Результат пошуку індексу збережіть у змінній isRamaPos, а перевірку наявності (булеве значення true/false) збережіть у змінній isRama. Виведіть обидва результати у консоль.
  * Результатом для isRamaPos має бути індекс входження.
  * Результатом для isRama має бути буль true.
  */
@@ -107,7 +107,7 @@ console.log('strReplace:', strReplace)
 /*
  * #7
  *
- * Преобразуйте текст 'some STRING' у верхній, потім у нижній регістри, результат відобразіть у консолі.
+ * Перетворіть текст 'some STRING' у верхній, потім у нижній регістри, результат відобразіть у консолі.
  */
 var someStr = 'some STRING'
 var upperStr = someStr.toUpperCase()

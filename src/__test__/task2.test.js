@@ -8,26 +8,26 @@ eval(code)
 describe('Task #2: Check for assignment operators', () => {
   // Перевірка на використання оператора +=
   test('Check for += operator', () => {
-    expect(code).toMatch(/myTest \+=/)
+    expect(code).toMatch(/myTest\s*\+=\s*/)
   })
 
   // Перевірка на використання оператора -=
   test('Check for -= operator', () => {
-    expect(code).toMatch(/myTest -=/)
+    expect(code).toMatch(/myTest\s*-=\s*/)
   })
 
   // Перевірка на використання оператора *=
   test('Check for *= operator', () => {
-    expect(code).toMatch(/myTest \*=/)
+    expect(code).toMatch(/myTest\s*\*=\s*/)
   })
 
   // Перевірка на використання оператора /=
   test('Check for /= operator', () => {
-    expect(code).toMatch(/myTest \/=/)
+    expect(code).toMatch(/myTest\s*\/=\s*/)
   })
 
   // Перевірка на використання оператора %=
   test('Check for %= operator', () => {
-    expect(code).toMatch(/myTest %=/)
+    expect(code).toMatch(/myTest\s*%=\s*/)
   })
 })
