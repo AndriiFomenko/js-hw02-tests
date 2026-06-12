@@ -12,9 +12,9 @@ describe('Task #4: Create and check strObj object', () => {
     expect(global.strObj).toBeDefined()
 
     // Перевіряємо, що властивість str містить відповідний рядок
-    expect(global.strObj.str).toBe('Мама мыла раму, рама мыла маму')
+    expect(global.strObj.str).toBe('Мама мила раму, рама мила маму')
 
     // Перевіряємо, що властивість length правильно визначено
-    expect(global.strObj.length).toBe('Мама мыла раму, рама мыла маму'.length)
+    expect(global.strObj.length).toBe('Мама мила раму, рама мила маму'.length)
   })
 })
